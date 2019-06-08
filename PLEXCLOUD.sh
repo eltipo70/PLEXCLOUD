@@ -41,7 +41,6 @@ read dale
 echo -n "Ejecutando plexdrive en segundo plano: "
 read enter
 sh /home/plexdrive/runcloud.sh
-screen -ls
 #lugar de recomendaciones final:
 echo "Configura PLEX con un tunel SSH.."
 echo -n "Continua con el README.md  "
@@ -52,4 +51,4 @@ echo -n "http://"
 curl ifconfig.me
 echo -n ":32400   FIN....."
 read enter
-echo "PLEX INSTALADO.......\^.^/
+echo "PLEX INSTALADO.......\^.^/"
